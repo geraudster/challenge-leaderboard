@@ -6,4 +6,5 @@ google_secret.json
 ShazamLeaderboard-*.json
 packrat/lib*/
 packrat/bundles/
+.Rproj.user
 packrat/src/
