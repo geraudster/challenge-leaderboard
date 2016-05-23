@@ -1,0 +1,9 @@
+rsconnect
+submission-label.csv
+submission-test.csv
+google_secret.R
+google_secret.json
+ShazamLeaderboard-*.json
+packrat/lib*/
+packrat/bundles/
+packrat/src/
