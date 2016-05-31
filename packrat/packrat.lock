@@ -13,10 +13,16 @@ Source: CRAN
 Version: 0.4-1
 Hash: 6524d5c5d30ff74084ac028eeb19eb1b
 
+Package: Matrix
+Source: CRAN
+Version: 1.2-6
+Hash: 6d5b4689f994e2af7e9cc11324c5cbeb
+
 Package: MatrixModels
 Source: CRAN
 Version: 0.4-1
 Hash: 60a5c75e57aae4a0ce76cb7422939aaf
+Requires: Matrix
 
 Package: PKI
 Source: CRAN
@@ -54,7 +60,7 @@ Package: RcppEigen
 Source: CRAN
 Version: 0.3.2.8.1
 Hash: d33fa8124f9c3a22f39677f43d8b89a5
-Requires: Rcpp
+Requires: Matrix, Rcpp
 
 Package: SparseM
 Source: CRAN
@@ -219,7 +225,7 @@ Package: lme4
 Source: CRAN
 Version: 1.1-12
 Hash: 0e8b8b1917b817d7b92a7c4230379977
-Requires: Rcpp, RcppEigen, minqa, nlme, nloptr
+Requires: Matrix, Rcpp, RcppEigen, minqa, nlme, nloptr
 
 Package: lubridate
 Source: CRAN
@@ -283,7 +289,7 @@ Package: pbkrtest
 Source: CRAN
 Version: 0.4-6
 Hash: 8117c37e2e3078e3c6465134bac6956e
-Requires: lme4
+Requires: Matrix, lme4
 
 Package: plyr
 Source: CRAN
@@ -301,7 +307,7 @@ Package: quantreg
 Source: CRAN
 Version: 5.24
 Hash: 3ae0bf3d5ae51e000a9c051488af8669
-Requires: MatrixModels, SparseM
+Requires: Matrix, MatrixModels, SparseM
 
 Package: radarchart
 Source: CRAN
